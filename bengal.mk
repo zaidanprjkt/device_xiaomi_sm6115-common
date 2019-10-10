@@ -265,6 +265,10 @@ PRODUCT_SYSTEM_PROPERTIES += \
 PRODUCT_SYSTEM_PROPERTIES += \
     persist.vendor.cne.feature=1
 
+# Component overrides
+ PRODUCT_COPY_FILES += \
+     $(LOCAL_PATH)/component-overrides.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/component-overrides.xml
+
 # Consumer IR
 PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
