@@ -799,6 +799,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.radio.enable_temp_dds=true \
     persist.vendor.radio.enableadvancedscan=true \
     persist.vendor.radio.manual_nw_rej_ct=1 \
+    persist.vendor.radio.mt_sms_ack=30 \
     persist.vendor.radio.procedure_bytes=SKIP \
     persist.vendor.radio.rat_on=combine \
     persist.vendor.radio.sib16_support=1 \
