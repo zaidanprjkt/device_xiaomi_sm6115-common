@@ -160,3 +160,7 @@ PRODUCT_PACKAGES += \
     libavservices_minijail \
     libavservices_minijail.vendor \
     libavservices_minijail_vendor
+
+# Net
+PRODUCT_PACKAGES += \
+    netutils-wrapper-1.0
