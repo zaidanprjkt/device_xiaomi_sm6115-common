@@ -558,7 +558,10 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    CarrierConfigOverlay
+    CarrierConfigOverlay \
+    FrameworksResCommon \
+    SystemUIResCommon \
+    TelephonyResCommon
 
 # PASR
 PRODUCT_VENDOR_PROPERTIES += \
