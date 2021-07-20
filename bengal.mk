@@ -307,7 +307,8 @@ PRODUCT_PACKAGES += \
 
 # Dalvik
 PRODUCT_SYSTEM_PROPERTIES += \
-    dalvik.vm.systemuicompilerfilter=speed
+    dalvik.vm.systemuicompilerfilter=speed \
+    dalvik.vm.dex2oat64.enabled=true
 
 # Display
 PRODUCT_PACKAGES += \
