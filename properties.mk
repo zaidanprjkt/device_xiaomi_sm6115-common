@@ -204,6 +204,10 @@ PRODUCT_SYSTEM_PROPERTIES += \
 PRODUCT_SYSTEM_PROPERTIES += \
     debug.hwui.skia_atrace_enabled=false
 
+# Disable vsync for cpu rendered apps
+PRODUCT_SYSTEM_PROPERTIES += \
+    debug.cpurend.vsync=false
+
 # Dalvik
 PRODUCT_SYSTEM_PROPERTIES += \
     dalvik.vm.systemuicompilerfilter=speed \
