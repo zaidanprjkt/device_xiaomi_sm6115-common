@@ -783,7 +783,6 @@ PRODUCT_SYSTEM_PROPERTIES += \
     DEVICE_PROVISIONED=1 \
     persist.vendor.data.mode=concurrent \
     persist.vendor.radio.atfwd.start=true \
-    persist.vendor.radio.redir_party_num=1 \
     persist.vendor.radio.report_codec=1 \
     ril.subscription.types=NV,RUIM \
     rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so \
