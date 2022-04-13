@@ -53,11 +53,6 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_SYSTEM_PROPERTIES += \
     arm64.memtag.process.system_server=off
 
-# AID/fs configs
-PRODUCT_PACKAGES += \
-    fs_config_dirs \
-    fs_config_files
-
 # ANT+
 PRODUCT_PACKAGES += \
     AntHalService-Soong \
