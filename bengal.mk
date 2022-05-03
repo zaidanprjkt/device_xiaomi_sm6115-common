@@ -907,7 +907,7 @@ PRODUCT_PACKAGES += \
     libwfdaac_vendor
 
 PRODUCT_SYSTEM_PROPERTIES += \
-   debug.sf.enable_hwc_vds=1 \
+   debug.sf.enable_hwc_vds=0 \
    persist.debug.wfd.enable=1 \
    persist.sys.wfd.virtual=0
 
