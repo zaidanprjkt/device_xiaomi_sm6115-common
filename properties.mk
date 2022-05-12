@@ -200,6 +200,10 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_SYSTEM_PROPERTIES += \
     persist.vendor.cne.feature=1
 
+# Disable Skia tracing by default
+PRODUCT_SYSTEM_PROPERTIES += \
+    debug.hwui.skia_atrace_enabled=false
+
 # Dalvik
 PRODUCT_SYSTEM_PROPERTIES += \
     dalvik.vm.systemuicompilerfilter=speed \
