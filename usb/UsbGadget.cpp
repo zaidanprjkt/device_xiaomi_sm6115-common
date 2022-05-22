@@ -17,7 +17,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "android.hardware.usb.gadget@1.1-service-qti"
+#define LOG_TAG "android.hardware.usb.gadget@1.1-service.xiaomi_bengal"
 
 #include <android-base/file.h>
 #include <android-base/properties.h>
