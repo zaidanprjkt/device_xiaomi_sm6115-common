@@ -431,6 +431,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     vendor.display.disable_idle_time_hdr=1 \
     vendor.display.disable_idle_time_video=1 \
     vendor.display.disable_layer_stitch=0 \
+    vendor.display.disable_rotator_downscale=1 \
     debug.sf.predict_hwc_composition_strategy=0 \
     vendor.display.disable_rotator_ubwc=1 \
     vendor.display.disable_scaler=0 \
