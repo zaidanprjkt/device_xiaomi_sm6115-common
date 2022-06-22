@@ -868,9 +868,10 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.sh
 
 PRODUCT_VENDOR_PROPERTIES += \
+    vendor.usb.controller=4e00000.dwc3 \
     vendor.usb.diag.func.name=diag \
     vendor.usb.dpl.inst.name=dpl \
-    vendor.usb.qdss.inst.name=qdss \
+    vendor.usb.qdss.inst.name=qdss_sw \
     vendor.usb.rmnet.func.name=gsi \
     vendor.usb.rmnet.inst.name=rmnet \
     vendor.usb.rndis.func.name=gsi \
