@@ -18,6 +18,10 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/xiaomi
 
+# AAPT
+PRODUCT_AAPT_CONFIG := normal
+PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+
 # Async MTE on system_server
 PRODUCT_SYSTEM_PROPERTIES += \
     arm64.memtag.process.system_server=off
