@@ -912,7 +912,7 @@ PRODUCT_VENDOR_PROPERTIES += \
 # Wi-Fi Display
 PRODUCT_PACKAGES += \
     libnl \
-    libwfdaac_vendor
+    libwfdaac_vendor:32
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
