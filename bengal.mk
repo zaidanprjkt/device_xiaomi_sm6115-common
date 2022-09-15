@@ -223,12 +223,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     persist.bluetooth.disableabsvol=true \
     persist.vendor.bt.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac \
     persist.vendor.bt.aac_frm_ctl.enabled=true \
-    persist.vendor.qcom.bluetooth.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac \
-    persist.vendor.qcom.bluetooth.aac_vbr_ctl.enabled=false \
-    persist.vendor.qcom.bluetooth.enable.splita2dp=true \
-    persist.vendor.qcom.bluetooth.scram.enabled=false \
     persist.vendor.qcom.bluetooth.soc=cherokee \
-    persist.vendor.qcom.bluetooth.twsp_state.enabled=false \
     ro.bluetooth.a2dp_offload.supported=true \
     ro.vendor.bluetooth.wipower=false
 
@@ -280,10 +275,6 @@ PRODUCT_SYSTEM_PROPERTIES += \
 # CNE
 PRODUCT_SYSTEM_PROPERTIES += \
     persist.vendor.cne.feature=1
-
-# Component overrides
- PRODUCT_COPY_FILES += \
-     $(LOCAL_PATH)/component-overrides.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/component-overrides.xml
 
 # Configstore
 PRODUCT_PACKAGES += \
