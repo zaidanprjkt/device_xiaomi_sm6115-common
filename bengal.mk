@@ -379,6 +379,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.mapperextensions@1.1.vendor
 
 PRODUCT_SYSTEM_PROPERTIES += \
+    debug.sf.auto_latch_unsignaled=true \
     dev.pm.dyn_samplingrate=1
 
 PRODUCT_VENDOR_PROPERTIES += \
@@ -402,7 +403,6 @@ PRODUCT_VENDOR_PROPERTIES += \
     debug.sf.high_fps_late_app_phase_offset_ns=1000000 \
     debug.sf.high_fps_late_sf_phase_offset_ns=-2000000 \
     debug.sf.hw=0 \
-    debug.sf.latch_unsignaled=1 \
     debug.sf.disable_backpressure=1 \
     debug.sf.disable_client_composition_cache=1 \
     persist.demo.hdmirotationlock=false \
