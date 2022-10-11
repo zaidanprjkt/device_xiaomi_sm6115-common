@@ -288,6 +288,10 @@ PRODUCT_VENDOR_PROPERTIES += \
 # FRP
 PRODUCT_VENDOR_PROPERTIES += \
     ro.frp.pst=/dev/block/bootdevice/by-name/frp
+    
+# Fuse
+PRODUCT_VENDOR_PROPERTIES += \
+    persist.sys.fuse.passthrough.enable=true
 
 # Fingerprint
 PRODUCT_VENDOR_PROPERTIES += \
