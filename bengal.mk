@@ -774,10 +774,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/privapp-permissions-qti.xml:system/etc/permissions/privapp-permissions-qti.xml
 
-# Qualcomm System Daemon
-PRODUCT_VENDOR_PROPERTIES += \
-    persist.vendor.qcomsysd.enabled=1
-
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.class_main.sh \
