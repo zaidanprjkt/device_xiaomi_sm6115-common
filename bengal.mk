@@ -463,7 +463,8 @@ PRODUCT_VENDOR_PROPERTIES += \
 
 # Fingerprint
 PRODUCT_VENDOR_PROPERTIES += \
-    ro.hardware.fp.sideCap=true
+    ro.hardware.fp.sideCap=true \
+    sys.fp.miui.token=0
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
