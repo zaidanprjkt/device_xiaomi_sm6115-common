@@ -22,7 +22,7 @@ TARGET_HALS_PATH ?= hardware/qcom-caf/$(OVERRIDE_QCOM_HARDWARE_VARIANT)
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/xiaomi
+    vendor/hardware/xiaomi
 
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
