@@ -553,6 +553,10 @@ PRODUCT_PACKAGES += \
     libstagefrighthw \
     libstagefright_omx.vendor
 
+# Overlays
+PRODUCT_PACKAGES += \
+    CarrierConfigOverlay
+
 # PASR
 PRODUCT_VENDOR_PROPERTIES += \
     vendor.power.pasr.enabled=false
