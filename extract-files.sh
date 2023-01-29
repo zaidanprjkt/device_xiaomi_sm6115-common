@@ -60,13 +60,11 @@ fi
 
 function blob_fixup() {
     case "${1}" in
-        vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so)
-            "${PATCHELF}" --remove-needed "libhidlbase.so" "${2}"
-            sed -i "s/libhidltransport.so/libhidlbase-v32.so\x00/" "${2}"
+        vendor/lib/libsample5.so)
+            "${PATCHELF}" --replace-needed "libsample6.so" "libsample7.so" "${2}"
             ;;
-        vendor/lib64/com.fingerprints.extension@1.0.so)
-            "${PATCHELF}" --remove-needed "libhidlbase.so" "${2}"
-            sed -i "s/libhidltransport.so/libhidlbase-v32.so\x00/" "${2}"
+        vendor/lib/libsample7.so)
+            "${PATCHELF}" --set-soname "libsample7.so" "${2}"
             ;;
     esac
 }
