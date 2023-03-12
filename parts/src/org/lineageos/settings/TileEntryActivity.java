@@ -26,7 +26,6 @@ import android.util.Log;
 import androidx.annotation.Nullable;
 
 import org.lineageos.settings.dirac.DiracActivity;
-import org.lineageos.settings.display.LcdFeaturesPreferenceActivity;
 
 public class TileEntryActivity extends Activity {
     private static final String TAG = "TileEntryActivity";
@@ -44,7 +43,6 @@ public class TileEntryActivity extends Activity {
                 break;
             case HBM_TILE:
             case CABC_TILE:
-                openActivitySafely(new Intent(this, LcdFeaturesPreferenceActivity.class));
                 break;
             default:
                 finish();
