@@ -241,6 +241,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.btconfigstore@1.0.vendor \
     vendor.qti.hardware.btconfigstore@2.0.vendor
 
+PRODUCT_PACKAGES += \
+    libaptx_enc \
+    libaptxhd_enc
+
 PRODUCT_VENDOR_PROPERTIES += \
     persist.bluetooth.a2dp_offload.disabled=false \
     persist.bluetooth.disableabsvol=true \
