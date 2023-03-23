@@ -24,6 +24,9 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     vendor/hardware/xiaomi
 
+# Bootanimation
+scr_resolution := 1080
+
 # Disable Quick Tap
 DISABLE_COLUMBUS := true
 
