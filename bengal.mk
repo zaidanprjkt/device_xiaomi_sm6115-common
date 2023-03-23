@@ -24,6 +24,18 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     vendor/hardware/xiaomi
 
+# Disable Quick Tap
+DISABLE_COLUMBUS := true
+
+# Enable blurs
+#TARGET_USES_BLUR := true
+
+# Enable gameservice
+ENABLE_GAMETOOLS := true
+
+# Google Pixel Launcher
+INCLUDE_PIXEL_LAUNCHER := true
+
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
