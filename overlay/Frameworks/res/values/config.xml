@@ -463,10 +463,6 @@
          black in software (to avoid aliasing or emulate a cutout that is not physically existent). -->
     <string name="config_mainBuiltInDisplayCutout">M -78,0 L -78,78 L 78,78 L 78,0 Z</string>
 
-    <!-- List of comma separated package names for which we the system will not show crash, ANR,
-         etc. dialogs. --> 
-    <string name="config_appsNotReportingCrashes">com.google.android.turboadapter</string>
-
     <!-- The duration (in milliseconds) that should be applied to waveform vibrations that ends in
          non-zero amplitudes, to bring the vibrator amplitude down to zero using this timing. -->
     <integer name="config_vibrationWaveformRampDownDuration">50</integer>
