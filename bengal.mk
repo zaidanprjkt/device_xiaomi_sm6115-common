@@ -907,13 +907,13 @@ PRODUCT_PACKAGES += \
     libwfdaac_vendor
 
 PRODUCT_SYSTEM_PROPERTIES += \
-   debug.sf.enable_hwc_vds=0 \
-   persist.debug.wfd.enable=1 \
-   persist.sys.wfd.virtual=0
+    debug.sf.enable_hwc_vds=0 \
+    persist.debug.wfd.enable=1 \
+    persist.sys.wfd.virtual=0
 
 # Zygote
 PRODUCT_PROPERTY_OVERRIDES += \
-   zygote.critical_window.minute=10
+    zygote.critical_window.minute=10
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/sm6115-common/sm6115-common-vendor.mk)
