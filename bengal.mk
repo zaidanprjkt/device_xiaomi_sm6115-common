@@ -332,6 +332,15 @@ PRODUCT_SYSTEM_PROPERTIES += \
     dalvik.vm.systemuicompilerfilter=speed \
     dalvik.vm.dex2oat64.enabled=true
 
+# Device Mask
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.build.fingerprint=google/cheetah/cheetah:13/TQ2A.230305.008.C1/9619669:user/release-keys \
+    ro.product.brand=google \
+    ro.product.device=cheetah \
+    ro.product.manufacturer=Google \
+    ro.product.model=Pixel 7 Pro \
+    ro.product.name=cheetah
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@3.0-impl-qti-display \
