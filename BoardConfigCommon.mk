@@ -131,6 +131,9 @@ TARGET_BOARD_PLATFORM := bengal
 # Power
 TARGET_POWERHAL_MODE_EXT := $(COMMON_PATH)/power/power-mode.cpp
 
+# Properties
+TARGET_PRODUCT_PROP += $(COMMON_PATH)/product.prop
+
 # Recovery
 TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/rootdir/etc/fstab.qcom
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
