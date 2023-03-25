@@ -531,7 +531,8 @@ PRODUCT_SYSTEM_PROPERTIES += \
     ro.hwui.text_small_cache_width=1024 \
     ro.hwui.text_small_cache_height=1024 \
     ro.hwui.text_large_cache_width=2048 \
-    ro.hwui.text_large_cache_height=1024
+    ro.hwui.text_large_cache_height=1024 \
+    ro.hwui.render_ahead=20
 
 # IPACM
 PRODUCT_PACKAGES += \
