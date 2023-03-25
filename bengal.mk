@@ -858,7 +858,7 @@ PRODUCT_SYSTEM_PROPERTIES += \
 
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.3-service.xiaomi_bengal
+    android.hardware.usb@1.3-service-qti
 
 PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
