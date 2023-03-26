@@ -312,7 +312,8 @@ PRODUCT_PACKAGES += \
     libstdc++.vendor
 
 PRODUCT_VENDOR_PROPERTIES += \
-    camera.disable_zsl_mode=1
+    camera.disable_zsl_mode=1 \
+    vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera
 
 # Charger
 PRODUCT_SYSTEM_PROPERTIES += \
