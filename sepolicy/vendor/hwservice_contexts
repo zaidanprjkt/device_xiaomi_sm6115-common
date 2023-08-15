@@ -18,3 +18,6 @@ vendor.goodix.hardware.biometrics.fingerprint::IGoodixFingerprintDaemonExt		 u:o
 vendor.qti.hardware.fingerprint::IQtiExtendedFingerprint                                 u:object_r:hal_fingerprint_hwservice:s0
 vendor.silead.hardware.fingerprintext::ISileadFingerprint                                u:object_r:hal_fingerprint_hwservice:s0
 vendor.xiaomi.hardware.fingerprintextension::IXiaomiFingerprint                          u:object_r:hal_fingerprint_hwservice:s0
+
+# Touchfeature
+vendor.xiaomi.hardware.touchfeature::ITouchFeature                                       u:object_r:hal_touchfeature_hwservice:s0

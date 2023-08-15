@@ -128,6 +128,10 @@ PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
     android.hardware.ir@1.0-service
 
+# Device Parts
+PRODUCT_PACKAGES += \
+    DeviceParts
+
 # Dex
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := verify
 PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
@@ -471,6 +475,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     telephony-ext
 
+# Touchfeature
+PRODUCT_PACKAGES += \
+    vendor.xiaomi.hardware.touchfeature@1.0.vendor
+    
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.3-service-qti

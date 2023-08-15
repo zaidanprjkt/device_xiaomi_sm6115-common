@@ -349,7 +349,11 @@ service dcvs-sh /vendor/bin/init.qti.dcvs.sh
 on property:vendor.dcvs.prop=1
    start dcvs-sh
 
-########### FTM end ##########
-########### FTM end ##########
-########### FTM end ##########
+on property:vendor.sys.thermal.active=*
+    chmod 644 /sys/class/thermal/thermal_message/sconfig
+    chown system system /sys/class/thermal/thermal_message/sconfig
+    write /sys/class/thermal/thermal_message/sconfig ${vendor.sys.thermal.active}
 
+########### FTM end ##########
+########### FTM end ##########
+########### FTM end ##########
