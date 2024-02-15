@@ -5,10 +5,8 @@
 #
 
 # Inherit some common Derpfest stuff.
-$(call inherit-product, vendor/derp/config/common_full_phone.mk)
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Officials Flag
-DERP_BUILDTYPE := Official
