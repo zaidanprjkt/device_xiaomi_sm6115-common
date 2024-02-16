@@ -8,10 +8,13 @@
 $(call inherit-product, device/xiaomi/chime/device-citrus.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := derp_citrus
+PRODUCT_NAME := afterlife_citrus
 PRODUCT_DEVICE := citrus
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := POCO M3
 PRODUCT_MANUFACTURER := Xiaomi
+
+# Afterlife flags.
+AFTERLIFE_MAINTAINER := scaledzdn.
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
