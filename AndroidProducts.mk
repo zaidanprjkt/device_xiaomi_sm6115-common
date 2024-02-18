@@ -5,13 +5,13 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/genesis_citrus.mk \
-    $(LOCAL_DIR)/genesis_lime.mk
+    $(LOCAL_DIR)/lineage_citrus.mk \
+    $(LOCAL_DIR)/lineage_lime.mk
 
 COMMON_LUNCH_CHOICES := \
-    genesis_citrus-user \
-    genesis_citrus-userdebug \
-    genesis_citrus-eng \
-    genesis_lime-user \
-    genesis_lime-userdebug \
-    genesis_lime-eng
+    lineage_citrus-user \
+    lineage_citrus-userdebug \
+    lineage_citrus-eng \
+    lineage_lime-user \
+    lineage_lime-userdebug \
+    lineage_lime-eng

@@ -4,11 +4,12 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit some common Genesis stuff.
-$(call inherit-product, vendor/genesis/config/common_full_phone.mk)
+# Inherit some common RisingOS stuff.
+$(call inherit-product, vendor/rising/config/rising.mk)
 
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Officials Flag
-GENESIS_OFFICIAL := true
+# Rising Flags
+RISING_MAINTAINER := scaledzdn.
+RISING_CHIPSET := Snapdragon 662
